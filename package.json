@@ -2,7 +2,7 @@
   "name": "uxrmethods_gatsby",
   "version": "1.0.0",
   "private": true,
-  "description": "uxrmethods_gatsby",
+  "description": "UXRMethods is a comprehensive collection of essential User Experience Research methods. This project is driven by a passion for the UX community, aiming to help build a better world.y",
   "author": "Sajjad Dashti",
   "keywords": [
     "gatsby"
@@ -15,9 +15,15 @@
     "clean": "gatsby clean"
   },
   "dependencies": {
+    "@mdx-js/react": "^2.3.0",
     "autoprefixer": "^10.4.20",
     "gatsby": "^5.13.7",
+    "gatsby-plugin-image": "^3.13.1",
+    "gatsby-plugin-mdx": "^5.13.1",
     "gatsby-plugin-postcss": "^6.13.1",
+    "gatsby-plugin-sharp": "^5.13.1",
+    "gatsby-source-filesystem": "^5.13.1",
+    "lottie-react": "^2.4.0",
     "postcss": "^8.4.47",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
