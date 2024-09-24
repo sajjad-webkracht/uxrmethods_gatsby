@@ -50,7 +50,7 @@ const contribute = () => (
                     </clipPath>
                   </defs>
                 </svg>
-                <b>Email</b> - Send an email to hi@sajjaddashti.ir
+                Email - Send an email to hi@sajjaddashti.ir
               </a>
             </li>
         </ul>
@@ -61,6 +61,11 @@ const contribute = () => (
 )
 
 
-export const Head = () => <Seo title="Contribute" />
+export const Head = () => (
+  <Seo 
+    title="Contribute" 
+    description="UXRMethods is a comprehensive collection of essential User Experience Research methods." 
+  />
+)
 
 export default contribute

@@ -47,6 +47,11 @@ export const query = graphql`
   }
 `
 
-export const Head = () => <Seo title="Home Page" />
+export const Head = () => (
+  <Seo 
+    title="Home Page" 
+    description="UXRMethods is a comprehensive collection of essential User Experience Research methods." 
+  />
+)
 
 export default IndexPage

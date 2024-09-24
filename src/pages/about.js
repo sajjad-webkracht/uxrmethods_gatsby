@@ -59,7 +59,7 @@ const about = () => (
                     </clipPath>
                   </defs>
                 </svg>
-                <b>NNGroup</b> - UX Without User Research Is Not UX
+                NNGroup - UX Without User Research Is Not UX
               </a>
             </li>
             <li className="mb-4">
@@ -74,7 +74,7 @@ const about = () => (
                     </clipPath>
                   </defs>
                 </svg>
-                <b>Maze</b> - What is UX Research: The Ultimate Guide for UX Researchers
+                Maze - What is UX Research: The Ultimate Guide for UX Researchers
               </a>
             </li>
         </ul>
@@ -85,6 +85,11 @@ const about = () => (
 )
 
 
-export const Head = () => <Seo title="About" />
+export const Head = () => (
+  <Seo 
+    title="About" 
+    description="UXRMethods is a comprehensive collection of essential User Experience Research methods." 
+  />
+)
 
 export default about
