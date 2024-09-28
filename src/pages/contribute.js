@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 
 const contribute = () => (
     <Layout>
-        <Link to="/" className="inline-flex px-4 py-2 justify-center items-center gap-2 rounded-xl border border-solid border-zinc-800">
+        <Link to="/" className="inline-flex hover:px-5 duration-200 px-4 py-2 justify-center items-center gap-2 rounded-xl border border-solid border-zinc-800">
             <div className="w-3 h-3">
                 <svg xmlns="http://www.w3.org/2000/svg" width="13" height="12" viewBox="0 0 13 12" fill="none">
                     <path d="M8.55203 11.1016L3.74149 6.57405C3.41078 6.2628 3.41078 5.73724 3.74149 5.42599L8.55203 0.898388C8.91349 0.558226 9.50659 0.814463 9.50659 1.31081L9.50659 10.6892C9.50659 11.1855 8.91349 11.4418 8.55203 11.1016Z" fill="white" />
