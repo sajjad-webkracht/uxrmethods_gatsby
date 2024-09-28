@@ -30,7 +30,7 @@ const contribute = () => (
                     </article>
                     <article className="bg-amber-400 text-zinc-900 rounded-xl p-8">
                         <h3 className="font-bold text-2xl mb-2 text-zinc-900">Assist with Translation</h3>
-                        <p className="text-base text-zinc-900">To make this knowledge accessible to everyone, translation is crucial. We greatly appreciate any assistance with translating, regardless of the language. Simply proofreading AI-generated translations for major languages would be immensely helpful.</p>
+                        <p className="text-base text-zinc-900">To make this knowledge accessible to everyone, translation is crucial. I greatly appreciate any assistance with translating, regardless of the language. Simply proofreading AI-generated translations for major languages would be immensely helpful.</p>
                     </article>
             </div>
         </div>

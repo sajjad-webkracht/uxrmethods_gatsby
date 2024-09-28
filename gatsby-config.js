@@ -9,6 +9,7 @@ module.exports = {
   plugins: [
     "gatsby-plugin-postcss",
     "gatsby-plugin-image",
+    "gatsby-plugin-sitemap",
     "gatsby-plugin-sharp",
     {
       resolve: "gatsby-source-filesystem",
