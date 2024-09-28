@@ -52,7 +52,7 @@ const IndexPage = ({ data }) => {
                 <h2 className="text-2xl md:text-3xl text-zinc-900 font-bold mb-2">{node.frontmatter.title}</h2>
                 <p className="text-base mb-8">{node.frontmatter.description}</p>
               </div>
-              <Link to={`/methods/${node.frontmatter.slug}`} className={`bg-zinc-900 text-${colors[index % colors.length]} px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10`}>Read more</Link>
+              <Link to={`/methods/${node.frontmatter.slug}`} className={`bg-zinc-900 text-${colors[index % colors.length]} px-8 py-4 rounded-t-xl block w-min text-nowrap duration-500 hover:px-10`}>Read More</Link>
             </article>
           ))
         }
