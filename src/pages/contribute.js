@@ -26,11 +26,11 @@ const contribute = () => (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                     <article className="bg-pink-600 text-zinc-900 rounded-xl p-8">
                         <h3 className="font-bold text-2xl mb-2 text-zinc-900">Find Mistakes</h3>
-                        <p className="text-base text-zinc-900">Perfection is elusive, and everyone can overlook details. If you notice any errors, please report them so I can correct them. Your assistance is always appreciated.</p>
+                        <p className="text-base text-zinc-900">If you notice any errors, please let me know. If there's a significant UX research method or topic that has been overlooked, I appreciate your help in adding it. Additionally, if you have any valuable resources for 'Further Reading,' feel free to share them with me.</p>
                     </article>
                     <article className="bg-amber-400 text-zinc-900 rounded-xl p-8">
                         <h3 className="font-bold text-2xl mb-2 text-zinc-900">Assist with Translation</h3>
-                        <p className="text-base text-zinc-900">To ensure this knowledge is accessible to everyone, translation is essential. Regardless of the language, your help in translating would be greatly appreciated.</p>
+                        <p className="text-base text-zinc-900">To make this knowledge accessible to everyone, translation is crucial. We greatly appreciate any assistance with translating, regardless of the language. Simply proofreading AI-generated translations for major languages would be immensely helpful.</p>
                     </article>
             </div>
         </div>

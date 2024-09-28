@@ -9,12 +9,19 @@ const colors = ["pink-600", "emerald-400", "sky-600", "amber-400", "violet-500"]
 
 const IndexPage = ({ data }) => (
     <Layout>
-        <div className="flex text-white py-12 items-center justify-between">
-            <div className="w-full md:w-1/2">
-                <h1 className="text-3xl md:text-4xl mb-2"><b>UXR</b>Methods is a comprehensive collection of essential User Experience Research methods.</h1>
-                <p className="text-xl">This project is driven by a passion for the UX community, aiming to help build a better world.</p>
-            </div>
+    <div className="flex text-white py-16 items-center justify-between">
+      <div className="w-full md:w-1/2">
+        <h1 className="text-3xl md:text-4xl mb-2"><b>UXR</b>Methods is a comprehensive collection of essential User Experience Research methods.</h1>
+        <p className="text-xl">This project is driven by a passion for the UX community, aiming to help build a better world.</p>
+      </div>
+      <div>
+        <div className="hidden md:flex flex-col items-end gap-2 md:gap-4">
+          <div className="bg-pink-600 w-32 h-12 rounded-xl"></div>
+          <div className="bg-sky-600 w-20 h-12 rounded-xl"></div>
+          <div className="bg-amber-400 w-48 h-12 rounded-xl"></div>
         </div>
+      </div>
+    </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-8 py-12">
         {

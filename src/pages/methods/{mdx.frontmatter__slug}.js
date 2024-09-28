@@ -56,8 +56,8 @@ const BlogPost = ({ data, children }) => {
                   h4: (props) => <h4 className="text-xl font-bold mt-4 mb-2" {...props} />,
                   h5: (props) => <h5 className="text-lg font-bold mt-4 mb-2" {...props} />,
                   h6: (props) => <h6 className="text-base font-bold mt-4 mb-2" {...props} />,
-                  li: (props) => <li className="mb-2" {...props} />
-                }
+                  li: (props) => <li className="mb-2" {...props} />,
+                  a: (props) => <a className="underline" {...props} />                }
                 });
             }
             return child;

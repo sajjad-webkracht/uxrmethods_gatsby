@@ -38,6 +38,7 @@ return (
     <link rel="apple-touch-icon" sizes="180x180" href={favicon180x180} />
     <link rel="icon" type="image/svg+xml" sizes="32x32" href={favicon32x32} />
     <link rel="icon" type="image/svg+xml" sizes="16x16" href={favicon16x16} />
+    <meta name="keywords" content="UX Research, UX Methods, User Experience, Usability Testing, User Interviews, Surveys, Personas, Journey Mapping, Card Sorting, A/B Testing, Heuristic Evaluation, Contextual Inquiry, Focus Groups, Eye Tracking, UX Strategy" />
   </>
 )
 }
